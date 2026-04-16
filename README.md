@@ -4,6 +4,20 @@ AI task breakdown and scheduling skill for Claude Code.
 
 Turn overwhelming tasks into clear, actionable plans with realistic time estimates. Optionally schedule them directly into Google Calendar.
 
+## Background
+
+This skill is extracted from **[Steplify.ai](https://steplify.ai)**, a startup that built an AI-powered personal task planner and calendar scheduler. The product helped users break down complex tasks, estimate realistic durations, and auto-schedule everything into Google Calendar.
+
+Steplify ran in production through 2025–2026, serving real users with features like:
+- AI task breakdown with anti-procrastination prompting
+- Personalized time estimation that learned from your actual work patterns
+- Google Calendar integration with smart free-slot detection
+- RAG-based behavioral profiling (ChromaDB + GPT)
+
+The startup shut down, but the core planning logic — the prompts, scheduling patterns, and learning algorithms — was too useful to let die. So we open-sourced it as a Claude Code skill.
+
+**What survived:** The battle-tested prompt engineering, scheduling heuristics, and user learning patterns. No API keys, user data, or backend infrastructure — just the brains.
+
 ## What It Does
 
 - **Break down complex tasks** into ordered subtasks with duration estimates
